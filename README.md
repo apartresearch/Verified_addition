@@ -1,4 +1,5 @@
-## Official Repository for Increasing Trust in Language Models through the Reuse of Verified Circuits | Authors Philip Quirke, Clement Neo and Fazl Barez
+## Official Repository for Increasing Trust in Language Models through the Reuse of Verified Circuits | 
+### Authors Philip Quirke, Clement Neo and Fazl Barez
 
 Understanding the inner workings of machine learning models like Transformers is vital for their safe and ethical use. 
 This repository contains Colabs that train addition models, subtraction models, addition and subtraction models.
