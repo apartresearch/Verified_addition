@@ -21,3 +21,19 @@ Our final (more-advanced) Colabs:
 - train a n-digit integer addition model, or subtraction model, or "addition and subtraction" model ( [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/assets/Accurate_Math_Train.ipynb) )
 - allow the untrained "addition and subtraction" model to be initialised with a trained "addition" model as an experiment in model re-use 
 - analyse the trained models using to provide insights into their algorithms  ( [Accurate_Math_Analyse.ipynb](https://github.com/apartresearch/verified_addition/blob/main/assets/Accurate_Math_Analyse.ipynb) )
+
+
+### Reference
+
+If you use our work, please consodier citing:
+
+```
+@misc{quirke2024increasing,
+      title={Increasing Trust in Language Models through the Reuse of Verified Circuits}, 
+      author={Philip Quirke and Clement Neo and Fazl Barez},
+      year={2024},
+      eprint={2402.02619},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
