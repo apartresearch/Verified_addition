@@ -6,7 +6,7 @@ The resulting models have very low loss and can correctly predict one million su
 
 
 
-![QuestionAnswer](./addition_2.svg?raw=true "Question Answer Shape")
+![QuestionAnswer](./addition_2.pdf?raw=true "Question Answer Shape")
 
 
 
