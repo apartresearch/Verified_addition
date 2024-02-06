@@ -22,10 +22,14 @@ Our final (more-advanced) Colabs:
 - allow the untrained "addition and subtraction" model to be initialised with a trained "addition" model as an experiment in model re-use 
 - analyse the trained models using to provide insights into their algorithms  ( [Accurate_Math_Analyse.ipynb](https://github.com/apartresearch/verified_addition/blob/main/assets/Accurate_Math_Analyse.ipynb) )
 
+The [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/assets/Accurate_Math_Train.ipynb) Colab is preconfigured to train 9 different models (with 5 or 6 digits, 2 or 3 layers, 3 or 4 heads, doing addition, subtraction or both). A one-line code change in "Part 1B" swaps between these models. Training of one model can take ~30 minutes. The trained model weights (*.pth) are saved to a public [HuggingFace](https://huggingface.co/PhilipQuirke/Accurate6DigitSubtraction/tree/main) folder.
+
+The [Accurate_Math_Analyse.ipynb](https://github.com/apartresearch/verified_addition/blob/main/assets/Accurate_Math_Analyse.ipynb) Colab is preconfigured to analsye 7 different models (with 5 or 6 digits, 2 or 3 layers, 3 or 4 heads, doing addition, subtraction or both). A one-line code change in "Part 1B" swaps between these models. For speed, this CoLab loads the selected model weights from the public [HuggingFace](https://huggingface.co/PhilipQuirke/Accurate6DigitSubtraction/tree/main) folder, allowing the analysis to start promptly. The Colab produces various graphs displaying its analysis.
+
 
 ### Reference
 
-If you use our work, please consodier citing:
+If you use our work, please consider citing:
 
 ```
 @misc{quirke2024increasing,
