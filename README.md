@@ -4,13 +4,20 @@ Understanding the inner workings of machine learning models like Transformers is
 This repository contains Colabs that train addition models, subtraction models, addition and subtraction models, with optional re-use of one model when training another.
 The resulting models have very low loss and can correctly predict one million succcessive questions.  
 
+
+
+![QuestionAnswer](./addition_2.svg?raw=true "Question Answer Shape")
+
+
+
+
 This repository contains our initial Colabs that:
-- train a perfectly accurate 5-digit integer addition model ( [./Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Train.ipynb) ) and
-- analyse the trained model to reveal its algorithm, and using intervention ablation and Principal Component Analysis to verify the algorithm ( [./Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Analyse.ipynb) )
+- train a perfectly accurate 5-digit integer addition model ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Train.ipynb) ) and
+- analyse the trained model to reveal its algorithm, and using intervention ablation and Principal Component Analysis to verify the algorithm ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Analyse.ipynb) )
 
 This repository also contains more-advanced Colabs that:
-- train a n-digit integer addition model, or subtraction model, or "addition and subtraction" model ( [./Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Train.ipynb) )
+- train a n-digit integer addition model, or subtraction model, or "addition and subtraction" model ( [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Train.ipynb) )
 - allow the untrained "addition and subtraction" model to be initialised with a trained "addition" model as an experiment in model re-use 
-- analyse the trained models using to provide insights into their algorithms  ( [./Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Analyse.ipynb) )
+- analyse the trained models using to provide insights into their algorithms  ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Analyse.ipynb) )
 
 The same [paper](https://arxiv.org/abs/2402.02619) also summarises the results of these Colabs 
