@@ -1,8 +1,4 @@
-# Verified_addition
-
-
 ## Official Repository for Increasing Trust in Language Models through the Reuse of Verified Circuits | Authors Philip Quirke and Clement Neo and Fazl Barez
-
 
 
 Understanding the inner workings of machine learning models like Transformers is vital for their safe and ethical use. 
