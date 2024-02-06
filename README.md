@@ -6,11 +6,7 @@ The resulting models have very low loss and can correctly predict one million su
 
 The associated [paper](https://arxiv.org/abs/2402.02619) details the algorithm of the addition algorithm:
 
-![AdditionAlgorithm](./figures/addition_2_jpg.001.jpeg?raw=true "Addition Algorithm")
-
-pq
-
-<img src="https://github.com/apartresearch/verified_addition/blob/main/figures/addition_2_jpg.001.jpeg" width="200">
+<img src="https://github.com/apartresearch/verified_addition/blob/main/figures/addition_2_jpg.001.jpeg" width="800">
 
 
 The [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/assets/Accurate_Math_Train.ipynb) supports the optional re-use of one model when training a new model:
