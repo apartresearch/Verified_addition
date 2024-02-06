@@ -1,23 +1,22 @@
 ## Official Repository for Increasing Trust in Language Models through the Reuse of Verified Circuits | Authors Philip Quirke, Clement Neo and Fazl Barez
 
 Understanding the inner workings of machine learning models like Transformers is vital for their safe and ethical use. 
-This repository contains Colabs that train addition models, subtraction models, addition and subtraction models, with optional re-use of one model when training another.
+This repository contains Colabs that train addition models, subtraction models, addition and subtraction models.
 The resulting models have very low loss and can correctly predict one million succcessive questions.  
 
+The associated [paper](https://arxiv.org/abs/2402.02619) details the algorithm of the addition algorithm:
 
+![AdditionAlgorithm](./addition_2.jpeg?raw=true "Addition Algorithm")
 
-![QuestionAnswer](./addition_2.pdf?raw=true "Question Answer Shape")
+The [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Train.ipynb) supports the optional re-use of one model when training a new model:
 
+![AdditionInsertion](./addition_fig1.jpeg?raw=true "Addition Insertion")
 
-
-
-This repository contains our initial Colabs that:
+Our initial (less capable) Colabs:
 - train a perfectly accurate 5-digit integer addition model ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Train.ipynb) ) and
 - analyse the trained model to reveal its algorithm, and using intervention ablation and Principal Component Analysis to verify the algorithm ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Analyse.ipynb) )
 
-This repository also contains more-advanced Colabs that:
+Our final (more-advanced) Colabs:
 - train a n-digit integer addition model, or subtraction model, or "addition and subtraction" model ( [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Train.ipynb) )
 - allow the untrained "addition and subtraction" model to be initialised with a trained "addition" model as an experiment in model re-use 
 - analyse the trained models using to provide insights into their algorithms  ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Analyse.ipynb) )
-
-The same [paper](https://arxiv.org/abs/2402.02619) also summarises the results of these Colabs 
