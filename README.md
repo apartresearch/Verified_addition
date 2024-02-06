@@ -6,11 +6,11 @@ The resulting models have very low loss and can correctly predict one million su
 
 The associated [paper](https://arxiv.org/abs/2402.02619) details the algorithm of the addition algorithm:
 
-![AdditionAlgorithm](./figures/addition_2.jpg.001.jpeg?raw=true "Addition Algorithm")
+![AdditionAlgorithm](./figures/addition_2_jpg.001.jpeg?raw=true "Addition Algorithm")
 
 The [Accurate_Math_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Math_Train.ipynb) supports the optional re-use of one model when training a new model:
 
-![AdditionInsertion](./figures/add_eg_jpg.001.jpeg?raw=true "Addition Insertion")
+![AdditionInsertion](./figures/addition_jpg.001.jpeg?raw=true "Addition Insertion")
 
 Our initial (less capable) Colabs:
 - train a perfectly accurate 5-digit integer addition model ( [Accurate_Addition_Train.ipynb](https://github.com/apartresearch/verified_addition/blob/main/Accurate_Addition_Train.ipynb) ) and
